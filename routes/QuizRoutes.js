@@ -9,7 +9,7 @@ router.post('/create-quiz/:courseId', protect, adminOnly, createQuiz);
 // Route for adding a question to a quiz only allowed for admins
 router.post('/add-question/:quizId', protect, adminOnly, addQuestion);
 
-// Route for showing a quiz to users
+// Route for showing a quiz to users with pagination
 router.get('/show-quiz/:quizId', protect, showQuiz);
 
 // Route for evaluating a quiz attempt by a user

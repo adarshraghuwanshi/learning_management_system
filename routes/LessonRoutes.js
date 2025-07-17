@@ -6,6 +6,8 @@ import { get } from 'mongoose';
 
 // Route for creating a lesson in a course only allowed for admins
 router.post('/create-lesson/:courseId', protect, adminOnly, createLesson);
+
+// Route for showing all lessons of course with pagination
 router.get('/course-lessons/:courseId', protect, getLessonByCourseId);
 
 

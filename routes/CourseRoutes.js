@@ -6,7 +6,7 @@ import { protect, adminOnly } from '../middlewares/AuthMiddleware.js';
 // Course creation route only allowed for admins
 router.post('/create-course', protect, adminOnly, createCourse);
 
-// Route for fetching all courses
+// Route for fetching all courses with pagination
 router.get('/get-allCourses',protect, getAllCourses);
 
 //Fetch course by ID 
