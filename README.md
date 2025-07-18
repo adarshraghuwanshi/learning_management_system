@@ -146,6 +146,6 @@ GET	/api/progress/quiz-allAttempts/:courseId/:quizId
 
 
 ## Middleware
-protect: JWT authentication middleware
-adminOnly: Role-based access control for admin users
-rateLimit: Blocks excessive requests (100 per 15 mins)
+### protect: JWT authentication middleware
+### adminOnly: Role-based access control for admin users
+### rateLimit: Blocks excessive requests (100 per 15 mins)
