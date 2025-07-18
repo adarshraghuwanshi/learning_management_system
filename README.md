@@ -140,7 +140,7 @@ POST /api/progress/lesson-completed/:courseId/:lessonId
 GET	/api/progress/check-progress/:courseId	   
 <img width="1279" height="789" alt="image" src="https://github.com/user-attachments/assets/62a87850-bf01-42a9-bb85-2e96c78f359e" />
 
-###  Get all quiz attempts
+###  Get all attempts of quiz
 GET	/api/progress/quiz-allAttempts/:courseId/:quizId	  
 <img width="1263" height="816" alt="image" src="https://github.com/user-attachments/assets/56ed9e48-ed80-49b5-9358-c45c0814e13c" />
 
