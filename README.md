@@ -45,9 +45,8 @@ A full-featured **LMS backend** built with **Node.js**, **Express.js**, and **Mo
 
 
 1.  git clone https://github.com/adarshraghuwanshi/learning_management_system 
-2.  cd backend
-3.  npm install
-4.  nodemon index.js
+2.  npm install
+3.  nodemon index.js
 
 
 The server will run at http://localhost:3000
